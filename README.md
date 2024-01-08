@@ -13,11 +13,13 @@ The program code and predicted values are for research and academic purposes onl
 ### Fetal Brain Segmentation: 
 
 We employed the high-performance VNet model, previously demonstrated to excel in [fetal resting-state functional MRI brain segmentation](https://arxiv.org/abs/2311.10844), to precisely extract fetal brain images from fMRI data.
+
 ![maks_result](images/2013_ses_T1.gif)
 
 ### Head Circumference Measurement: 
 
-OpenCV functions were meticulously applied to process the generated mask images, enabling accurate determination of both the minimum circumscribed rectangle and circumference of the fetal brain.
+OpenCV functions were meticulously applied to process the generated mask images, enabling accurate determination of both the minimum area rectangle and convex hull perimeter of the fetal brain.
+
 ![hc_result](images/sub-2006_T1_1.png)
 
 ### Automation and Error Reduction: 
