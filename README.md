@@ -1,6 +1,6 @@
 # Fetal_Brain_GA_Prediction
 
-<a href=\"https://colab.research.google.com/github/Achillesy/Fetal_Brain_GA_Prediction/blob/master/fmri_ga_predict.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>
+<a href="https://colab.research.google.com/github/Achillesy/Fetal_Brain_GA_Prediction/blob/master/fmri_ga_predict.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 This program allows users to upload multiple fMRI images at once and predict gestational age based on head circumference.
 
