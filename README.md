@@ -20,7 +20,7 @@ We employed the high-performance VNet model, previously demonstrated to excel in
 
 OpenCV functions were meticulously applied to process the generated mask images, enabling accurate determination of both the minimum area rectangle and convex hull perimeter of the fetal brain.
 
-![hc_result](images/sub-2006_T1_1.png)
+![hc_result_3](images/sub-2006_T1_3.png)
 
 ### Automation and Error Reduction: 
 
@@ -28,14 +28,24 @@ The algorithm automatically measures BPD/FOD and HC across multiple 3D fMRI imag
 
 || FileName | pixdim	| Slice	| FOD	| BPD	| HC  | GA  |
 | --- | ---      | ---    | ---   | --- | --- | --- | --- |
-| 0 |	sub-2006_ses-T1_task-rest_bold	| 3.5	| 17	| 98.0	| 91.0	| 304.7	| 34.497446 |
-| 1	| sub-2006_ses-T1_task-rest_bold	| 3.5	| 17	| 101.5	| 80.5	| 293.1	| 32.985815 |
-| 2	| sub-2006_ses-T1_task-rest_bold	| 3.5	| 17	| 98.0	| 80.5	| 290.9	| 32.704743 |
-| 3	| sub-2006_ses-T1_task-rest_bold	| 3.5	| 17	| 98.0	| 80.5	| 292.6	| 32.921778 |
-| 4	| sub-2006_ses-T1_task-rest_bold	| 3.5	| 16	| 98.0	| 80.5	| 291.1	| 32.730221 |
-| 5	| sub-2006_ses-T1_task-rest_bold	| 3.5	| 16	| 100.1	| 84.5	| 296.5	| 33.423721 |
-| 6	| sub-2006_ses-T1_task-rest_bold	| 3.5	| 17	| 94.0	| 89.1	| 293.8	| 33.075622 |
+| 0 |	sub-2006_ses-T1_task-rest_bold	| 3.5	| 17	| 98.0	| 91.0	| 304.4	| 34.457725 |
+| 1	| sub-2006_ses-T1_task-rest_bold	| 3.5	| 17	| 101.5	| 80.5	| 292.4	| 32.896189 |
+| 2	| sub-2006_ses-T1_task-rest_bold	| 3.5	| 17	| 98.0	| 80.5	| 290.5	| 32.653831 |
+| 3	| sub-2006_ses-T1_task-rest_bold	| 3.5	| 17	| **98.0**	| **80.5**	| **292.5**	| **32.908981** |
+| 4	| sub-2006_ses-T1_task-rest_bold	| 3.5	| 16	| 98.0	| 80.5	| 291.0	| 32.717480 |
+| 5	| sub-2006_ses-T1_task-rest_bold	| 3.5	| 16	| 100.1	| 84.5	| 296.1	| 33.371981 |
+| 6	| sub-2006_ses-T1_task-rest_bold	| 3.5	| 17	| 94.0	| 89.1	| 294.5	| 33.165611 |
 
+0	sub-2006_ses-T1_task-rest_bold	3.5	17	98.0	91.0	304.4	34.457725
+1	sub-2006_ses-T1_task-rest_bold	3.5	17	101.5	80.5	292.4	32.896189
+2	sub-2006_ses-T1_task-rest_bold	3.5	17	98.0	80.5	290.5	32.653831
+3	sub-2006_ses-T1_task-rest_bold	3.5	17	98.0	80.5	292.5	32.908981
+4	sub-2006_ses-T1_task-rest_bold	3.5	16	98.0	80.5	291.0	32.717480
+5	sub-2006_ses-T1_task-rest_bold	3.5	16	100.1	84.5	296.1	33.371981
+6	sub-2006_ses-T1_task-rest_bold	3.5	17	94.0	89.1	294.5	33.165611
+
+
+**Bold text** is the median of each column.
 
 ## Advantages
 
