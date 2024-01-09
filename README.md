@@ -36,14 +36,6 @@ The algorithm automatically measures BPD/FOD and HC across multiple 3D fMRI imag
 | 5	| sub-2006_ses-T1_task-rest_bold	| 3.5	| 16	| 100.1	| 84.5	| 296.1	| 33.371981 |
 | 6	| sub-2006_ses-T1_task-rest_bold	| 3.5	| 17	| 94.0	| 89.1	| 294.5	| 33.165611 |
 
-0	sub-2006_ses-T1_task-rest_bold	3.5	17	98.0	91.0	304.4	34.457725
-1	sub-2006_ses-T1_task-rest_bold	3.5	17	101.5	80.5	292.4	32.896189
-2	sub-2006_ses-T1_task-rest_bold	3.5	17	98.0	80.5	290.5	32.653831
-3	sub-2006_ses-T1_task-rest_bold	3.5	17	98.0	80.5	292.5	32.908981
-4	sub-2006_ses-T1_task-rest_bold	3.5	16	98.0	80.5	291.0	32.717480
-5	sub-2006_ses-T1_task-rest_bold	3.5	16	100.1	84.5	296.1	33.371981
-6	sub-2006_ses-T1_task-rest_bold	3.5	17	94.0	89.1	294.5	33.165611
-
 
 **Bold text** is the median of each column.
 
