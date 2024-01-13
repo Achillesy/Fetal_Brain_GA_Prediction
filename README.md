@@ -2,6 +2,8 @@
 
 <a href="https://colab.research.google.com/github/Achillesy/Fetal_Brain_GA_Prediction/blob/master/fmri_ga_predict.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+[![Automated TICI Scoring with DL](https://img.youtube.com/vi/6msXu0OC62o/0.jpg)](https://www.youtube.com/watch?v=6msXu0OC62o)
+
 This program allows users to upload multiple fMRI images at once and predict gestational age based on head circumference.
 
 The predicted value is calculated using an empirical formula, which can be customized by the user.
