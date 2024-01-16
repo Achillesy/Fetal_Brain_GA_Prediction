@@ -1,0 +1,107 @@
+0:00:00.000,0:00:07.875
+This program allows users to upload multiple fMRI images at once and predict gestational  age based on head circumference.
+
+0:00:08.799,0:00:15.502
+Now, please open the source  code repository for fetal age prediction 
+and click on the 'Open In Colab' button.
+
+0:00:26.191,0:00:33.560
+Confirm that the runtime type is set to Python 3 and GPU hardware acceleration is enabled.
+
+0:00:35.080,0:00:36.948
+Run all
+
+0:00:37.855,0:00:39.910
+Run anyway
+
+0:00:43.478,0:00:46.362
+Click the Files icon on the left.
+
+0:00:47.974,0:00:50.696
+Click the Upload to session storage icon above.
+
+0:00:51.687,0:00:58.973
+Select and upload local fMRI files.
+
+0:01:10.572,0:01:19.197
+You can also drag and drop files  directly from the File Explorer.
+
+0:01:20.663,0:01:23.180
+After all files have been uploaded,
+
+0:01:23.973,0:01:30.000
+Press Enter in the input box 
+to continue executing the program
+
+0:01:32.643,0:01:40.458
+Install MONAI
+
+0:01:48.804,0:01:53.827
+Download the VNet model parameters.
+
+0:02:00.699,0:02:07.624
+Shortly, you will be able to observe the predicted gestational  age data based on each fMRI file.
+
+0:02:08.153,0:02:17.349
+Next, I will provide a detailed  explanation of the method for predicting gestational age from a single fMRI file.
+
+0:02:18.902,0:02:23.300
+Firstly, disconnect and delete 
+the current runtime environment.
+
+0:02:24.357,0:02:34.878
+Release the code of Debug.
+
+0:02:36.878,0:02:38.482
+ Run all.
+
+0:02:46.279,0:02:53.367
+Upload an fMRI file.
+
+0:02:54.105,0:02:57.712
+Press Enter to continue.
+
+0:03:05.905,0:03:24.266
+Please be patient and wait 
+for approximately half a minute.
+
+0:03:25.522,0:03:30.000
+Based on the number of 3D 
+fetal brain images within the fMRI,
+
+0:03:30.000,0:03:33.101
+you will observe multiple output images.
+
+0:03:33.431,0:03:39.462
+The AI model processes the mask  directly to obtain measurement data.
+
+0:03:41.653,0:03:52.680
+The list displays AI measured  FOD/BPD/HC for each fetal brain image within the fMRI, along with the predicted GA result.
+
+0:03:53.953,0:04:04.807
+You can select the median by sorting the numerical values in the list.
+
+0:04:06.676,0:04:16.493
+The longer and shorter sides of the yellow rectangle represent FOD and BPD, respectively.
+
+0:04:17.418,0:04:25.292
+The red circles represent head 
+circumference (HC) measurements.
+
+0:04:25.887,0:04:33.614
+I believe you have noticed that the yellow border may not align perfectly with the axis of the fetal brain section.
+
+0:04:35.331,0:04:40.432
+However, upon observing the measurement values in the list,
+
+0:04:41.094,0:04:46.190
+you will notice minimal variance, especially in HC values.
+
+0:04:46.851,0:04:50.548
+Moreover, you can selectively choose suitable measurement values
+
+0:04:50.548,0:04:55.583
+and replace the source  code with your preferred empirical formula.
+
+0:04:56.177,0:04:59.560
+Wishing you a pleasant coding experience!
